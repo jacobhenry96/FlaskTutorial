@@ -2,8 +2,8 @@
 {% block title %}Index Page{% endblock %}
 
 {% block content %}
-    <h1>Lesson 5</h1>
-    <a href="#" class="btn btn-danger">Button Text</a>
-    <img src="img\Smart Spot.png" alt="SmartSpotLogo">
-    <p class="special">Hello World</p>
+    <h1>Lesson 6</h1>
+    <p>{{ message }}</p>
+
+    <a href="{{ url_for('set_data') }}">Set Session Data</a>
 {% endblock %}
